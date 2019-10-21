@@ -74,18 +74,18 @@ performance [test_homographyDL.py](src/pipeline/dl_homograhpy/unit_tests/test_ho
 ## 6. File Structure
 
     doc
-        ├── ...                                                          # README resources
+        ├── ...                                                        
     res                               
-        ├── homographyModel/                                             # dir to trained homography model 
-        ├── smartDocSamples/                                             # smartDoc challenge 2 test set samples
-        ├── smartDocSamplesOutput/                                       # mobileOCR results are stored here   
+        ├── A/                                            
+        ├── B/                                            
+        ├── c/                                    
     src
-        ├── pipeline/                                                    # mobileOCR pipeline
-            ├── dl_homograhpy_tf/                                        # deep learning: homography; dewarping 
-            ├── modes/                                                   # different OCR pipieline modes
-            ├── textline_recognition/                                    # Tesseract 4.0 python wrapper 
-            ├── ocrMaster.py                                             # interface to OCR pipeline
-    environment.yml                                                      # dependencies (easy setup)
+        ├── pipeline/                                               
+            ├── D/                                       
+            ├── modes/                                                   
+            ├── E/                                    
+            ├── F                                          
+    environment.yml                                                      
 
 ## License
 
