@@ -1,11 +1,10 @@
 # Image-Registering-Nets
 Unsupervised, deformable or non-rigid image image registration. (ResNets backbone) 
 
-Keywords: `OCR`, `Page Dewarping`, `Deep Learning`, `Tesseract-OCR`, `DAS2018`, `ICDAR2017` 
+Keywords: `Deformable distorntion`, `Fabric Dewarping`, `Deep Learning` 
 
-Conference Paper: ...
 
-## 1. Introduction: Camera-based document analysis
+## 1. Introduction: 
 
 This repository is part of the Master Thesis "Camera-based Document Analysis based on Deep Learning and OCR". 
 
@@ -21,12 +20,6 @@ and folded/ curved documents).
 
  A high-level overview is illustrated in the following figure:
 
-<p align="center">
-  <img width="70%" height="70%" src=doc/EvalFramework.png>
-</p>
-
-This repo contains a demo application for the by the page dewarping component extended OCR pipeline 
-([Tesseract 4.0](https://github.com/tesseract-ocr/tesseract)).
 
 ## 2. Proposed Method
 
@@ -41,16 +34,8 @@ the character accuracy results by more than 15 percentage points (93.11\%), in c
 ## 3. Demo Examples
 
 Page Dewarping results:
-
-<p align="center">
-  <img width="70%" height="70%" src=doc/pageDewarping.png>
-</p>
-
 By tesseract recognized textlines before after dewarping:
 
-<p align="center">
-  <img width="70%" height="70%" src=doc/recognized_textlines.png>
-</p>
 
 ## 4. Setup
 
@@ -87,6 +72,3 @@ performance [test_homographyDL.py](src/pipeline/dl_homograhpy/unit_tests/test_ho
             ├── F                                          
     environment.yml                                                      
 
-## License
-
-[mobileOCR_License](LICENSE)
